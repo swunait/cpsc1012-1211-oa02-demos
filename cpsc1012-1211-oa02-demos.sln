@@ -29,13 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Question04", "DMP_Quest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Switch_Question01", "DMP_Switch_Question01\DMP_Switch_Question01.csproj", "{B99327CA-CB37-48F7-9F3B-19A5F56C6691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumberOneTime", "GuessNumberOneTime\GuessNumberOneTime.csproj", "{1DF68521-BBBB-4A0D-AAC9-108F3F57B56E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumberOneTime", "GuessNumberOneTime\GuessNumberOneTime.csproj", "{1DF68521-BBBB-4A0D-AAC9-108F3F57B56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber", "GuessNumber\GuessNumber.csproj", "{9BF6A305-855D-41B3-B510-0D6AA5B574B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "GuessNumber\GuessNumber.csproj", "{9BF6A305-855D-41B3-B510-0D6AA5B574B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumberWithBooleanFlag", "GuessNumberWithBooleanFlag\GuessNumberWithBooleanFlag.csproj", "{B0ADA910-728B-44D8-A84E-D5AB6D72EF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumberWithBooleanFlag", "GuessNumberWithBooleanFlag\GuessNumberWithBooleanFlag.csproj", "{B0ADA910-728B-44D8-A84E-D5AB6D72EF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumberWithDoWhile", "GuessNumberWithDoWhile\GuessNumberWithDoWhile.csproj", "{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumberWithDoWhile", "GuessNumberWithDoWhile\GuessNumberWithDoWhile.csproj", "{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglePattern", "RectanglePattern\RectanglePattern.csproj", "{6158E88F-F8AA-4423-834D-8780B0A59AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleBoxPattern", "RectangleBoxPattern\RectangleBoxPattern.csproj", "{47E1109C-BDA7-4C7B-A931-739E0B503F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleBoxPattern", "TriangleBoxPattern\TriangleBoxPattern.csproj", "{1A1EAACA-D884-477E-B342-0555FF855D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6158E88F-F8AA-4423-834D-8780B0A59AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6158E88F-F8AA-4423-834D-8780B0A59AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6158E88F-F8AA-4423-834D-8780B0A59AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6158E88F-F8AA-4423-834D-8780B0A59AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E1109C-BDA7-4C7B-A931-739E0B503F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E1109C-BDA7-4C7B-A931-739E0B503F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E1109C-BDA7-4C7B-A931-739E0B503F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E1109C-BDA7-4C7B-A931-739E0B503F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1EAACA-D884-477E-B342-0555FF855D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1EAACA-D884-477E-B342-0555FF855D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1EAACA-D884-477E-B342-0555FF855D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1EAACA-D884-477E-B342-0555FF855D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

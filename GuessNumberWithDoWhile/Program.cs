@@ -32,7 +32,7 @@ namespace GuessNumberWithDoWhile
                 {
                     Console.WriteLine("Your guess number is too low.");
                 }
-
+                int gallons = (int) Math.Ceiling(1.91);
             } while (guessNumber != randomNumber);
 
         }
