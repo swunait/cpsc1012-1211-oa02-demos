@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumberWithBooleanFlag"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumberWithDoWhile", "GuessNumberWithDoWhile\GuessNumberWithDoWhile.csproj", "{0E8D2B35-C7CC-412D-A79F-374E4818C1B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglePattern", "RectanglePattern\RectanglePattern.csproj", "{6158E88F-F8AA-4423-834D-8780B0A59AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectanglePattern", "RectanglePattern\RectanglePattern.csproj", "{6158E88F-F8AA-4423-834D-8780B0A59AF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleBoxPattern", "RectangleBoxPattern\RectangleBoxPattern.csproj", "{47E1109C-BDA7-4C7B-A931-739E0B503F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleBoxPattern", "RectangleBoxPattern\RectangleBoxPattern.csproj", "{47E1109C-BDA7-4C7B-A931-739E0B503F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleBoxPattern", "TriangleBoxPattern\TriangleBoxPattern.csproj", "{1A1EAACA-D884-477E-B342-0555FF855D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleBoxPattern", "TriangleBoxPattern\TriangleBoxPattern.csproj", "{1A1EAACA-D884-477E-B342-0555FF855D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{EA611301-491A-45AE-880D-C877ED466793}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{1A1EAACA-D884-477E-B342-0555FF855D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A1EAACA-D884-477E-B342-0555FF855D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A1EAACA-D884-477E-B342-0555FF855D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA611301-491A-45AE-880D-C877ED466793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA611301-491A-45AE-880D-C877ED466793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA611301-491A-45AE-880D-C877ED466793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA611301-491A-45AE-880D-C877ED466793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
