@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleBoxPattern", "Rect
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleBoxPattern", "TriangleBoxPattern\TriangleBoxPattern.csproj", "{1A1EAACA-D884-477E-B342-0555FF855D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{EA611301-491A-45AE-880D-C877ED466793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{EA611301-491A-45AE-880D-C877ED466793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CupConverter", "CupConverter\CupConverter.csproj", "{C992647F-B049-42FD-BBD4-7C69D973AD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{EA611301-491A-45AE-880D-C877ED466793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA611301-491A-45AE-880D-C877ED466793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA611301-491A-45AE-880D-C877ED466793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
