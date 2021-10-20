@@ -45,7 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleBoxPattern", "Trian
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{EA611301-491A-45AE-880D-C877ED466793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CupConverter", "CupConverter\CupConverter.csproj", "{C992647F-B049-42FD-BBD4-7C69D973AD02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CupConverter", "CupConverter\CupConverter.csproj", "{C992647F-B049-42FD-BBD4-7C69D973AD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTutor01", "MathTutor01\MathTutor01.csproj", "{2F4C1ECA-B275-40A7-B6FD-4C47E80FE172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTutor02", "MathTutor02\MathTutor02.csproj", "{E8B50AC8-EFAA-412E-AA15-DDE2715CA2E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C992647F-B049-42FD-BBD4-7C69D973AD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4C1ECA-B275-40A7-B6FD-4C47E80FE172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4C1ECA-B275-40A7-B6FD-4C47E80FE172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4C1ECA-B275-40A7-B6FD-4C47E80FE172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4C1ECA-B275-40A7-B6FD-4C47E80FE172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B50AC8-EFAA-412E-AA15-DDE2715CA2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B50AC8-EFAA-412E-AA15-DDE2715CA2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B50AC8-EFAA-412E-AA15-DDE2715CA2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B50AC8-EFAA-412E-AA15-DDE2715CA2E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
