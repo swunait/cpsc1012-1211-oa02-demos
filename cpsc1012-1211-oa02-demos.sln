@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor04", "MathTutor04\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollSimulation", "DiceRollSimulation\DiceRollSimulation.csproj", "{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialApp01", "FactorialApp01\FactorialApp01.csproj", "{F1A633D1-F0C3-4EB7-826C-7536AC948C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
