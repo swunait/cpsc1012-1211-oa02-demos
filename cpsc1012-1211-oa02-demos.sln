@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor03", "MathTutor03\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor04", "MathTutor04\MathTutor04.csproj", "{AE6E0115-A157-4E07-BBBA-60C092C01658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollSimulation", "DiceRollSimulation\DiceRollSimulation.csproj", "{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiceRollSimulation", "DiceRollSimulation\DiceRollSimulation.csproj", "{94EF918E-04BE-40E2-ACDF-44BFC01A9AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialApp01", "FactorialApp01\FactorialApp01.csproj", "{F1A633D1-F0C3-4EB7-826C-7536AC948C72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialApp01", "FactorialApp01\FactorialApp01.csproj", "{F1A633D1-F0C3-4EB7-826C-7536AC948C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP2_Question1", "LP2_Question1\LP2_Question1.csproj", "{25C88FB0-B924-4E0D-AD81-7040520ACB36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1A633D1-F0C3-4EB7-826C-7536AC948C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C88FB0-B924-4E0D-AD81-7040520ACB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C88FB0-B924-4E0D-AD81-7040520ACB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C88FB0-B924-4E0D-AD81-7040520ACB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C88FB0-B924-4E0D-AD81-7040520ACB36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
