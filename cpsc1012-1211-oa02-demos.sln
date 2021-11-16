@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP3_Question05", "MP3_Quest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelArraysDemo01", "ParallelArraysDemo01\ParallelArraysDemo01.csproj", "{7F49A298-F5A0-4B62-9F8A-59B55F86E459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelArrayFileIODemo", "ParallelArrayFileIODemo\ParallelArrayFileIODemo.csproj", "{3130CDF5-F45E-40BD-95AD-E8FDFDC9F28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelArrayFileIODemo", "ParallelArrayFileIODemo\ParallelArrayFileIODemo.csproj", "{3130CDF5-F45E-40BD-95AD-E8FDFDC9F28D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor05", "MathTutor05\MathTutor05.csproj", "{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{3130CDF5-F45E-40BD-95AD-E8FDFDC9F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3130CDF5-F45E-40BD-95AD-E8FDFDC9F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3130CDF5-F45E-40BD-95AD-E8FDFDC9F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
