@@ -99,6 +99,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelArrayFileIODemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor05", "MathTutor05\MathTutor05.csproj", "{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelArrayDemo_HockeyPlayerStats", "..\cpsc1012-1211-oa06-demos\ParallelArrayDemo_HockeyPlayerStats\ParallelArrayDemo_HockeyPlayerStats.csproj", "{B3EC5B4E-70EF-4C54-8876-1480D90EB3AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85149D5B-6A7A-425D-9CDB-D8F7EFDD3BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EC5B4E-70EF-4C54-8876-1480D90EB3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EC5B4E-70EF-4C54-8876-1480D90EB3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EC5B4E-70EF-4C54-8876-1480D90EB3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EC5B4E-70EF-4C54-8876-1480D90EB3AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
