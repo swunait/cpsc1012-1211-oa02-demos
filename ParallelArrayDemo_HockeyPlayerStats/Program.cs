@@ -29,14 +29,15 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                 Console.WriteLine("-------------------");
                 Console.WriteLine(" 1. Add Player");
                 Console.WriteLine(" 2. List Players");
+                Console.WriteLine(" 4. Remove Player");
                 Console.WriteLine("11. Save data to file");
                 Console.WriteLine("12. Load data from file");
                 Console.WriteLine("99. Exit Program");
-                Console.Write("Enter your menu choice:");
+                Console.Write("Enter your menu choice: ");
 
                 // Process menu choice
                 menuChoice = int.Parse(Console.ReadLine());
-                switch(menuChoice)
+                switch (menuChoice)
                 {
                     case 1: // Add Player
                         {
@@ -48,6 +49,11 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                         {
                             //Console.WriteLine("List Players");
                             ListPlayers(hockeyPlayerNameArray, hockeyPlayerPointArray, playerCount);
+                        }
+                        break;
+                    case 4: // Remove player
+                        {
+                            playerCount = RemovePlayer(hockeyPlayerNameArray, hockeyPlayerPointArray, playerCount);
                         }
                         break;
                     case 11: // Save data
@@ -72,8 +78,52 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                         break;
                 }
 
-            } while (menuChoice != ExitProgramChoice);            
+            } while (menuChoice != ExitProgramChoice);
 
+        }
+
+        static int RemovePlayer(string[] nameArray, int[] pointArray, int arraySize)
+        {
+            int playerCount = 0;
+
+            if (arraySize <= 0)
+            {
+                Console.WriteLine("There are players to remove.");
+            }
+            else
+            {
+                // Display a list of players to remove
+                /*      12345678    123456789012345678901234567 123456
+                 *      PlayerNo(8) Player Name (27)            Points (6)
+                 *      --------    -----------                 ------
+                 *             1    Ryan Nugent-Hopkins             18
+                 *      
+                 * */
+                Console.WriteLine($"{"PlayerNo",8} {"Player Name",-27} {"Points",6}");
+                Console.WriteLine($"{"--------",8} {"-----------",-27} {"------",6}");
+                for (int index = 0; index < arraySize; index++)
+                {
+                    Console.WriteLine($"{index + 1,8} {nameArray[index],-27} {pointArray[index],6}");
+                }
+                // Prompt and read the playerNo to remove
+                Console.Write("Enter the player number to remove: ");
+                int playerNumber = int.Parse(Console.ReadLine());
+                int removeIndex = playerNumber - 1;
+                // Shift all elements at removeIndex up by one
+                for (int index = removeIndex; index < (arraySize - 1); index++)
+                {
+                    // Overwrite the current element with value from the next element
+                    nameArray[index] = nameArray[index + 1];
+                    pointArray[index] = pointArray[index + 1];
+                }
+                nameArray[arraySize] = null;
+                pointArray[arraySize] = 0;
+                arraySize--;
+                Console.WriteLine($"Successfully removed player {playerNumber}");
+            }
+            playerCount = arraySize;
+
+            return playerCount;
         }
 
         static int AddPlayer(string[] nameArray, int[] pointArray, int arraySize)
@@ -114,7 +164,7 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                 {
                     Console.WriteLine($"{nameArray[index],-27} {pointArray[index],6}");
                 }
-            }            
+            }
         }
 
         static int LoadData(string[] nameArray, int[] pointArray)
@@ -141,11 +191,11 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                 recordsRead = index;
                 Console.WriteLine($"Successfully read data from {dataImportFilePath} ");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            
+
             return recordsRead;
         }
         static void SaveData(string[] nameArray, int[] pointArray, int arraySize)
@@ -178,7 +228,7 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                     Console.WriteLine(ex.Message);
                 }
             }
-            
+
         }
     }
 }
