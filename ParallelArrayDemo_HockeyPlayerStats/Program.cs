@@ -30,6 +30,7 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                 Console.WriteLine(" 1. Add Player");
                 Console.WriteLine(" 2. List Players");
                 Console.WriteLine(" 4. Remove Player");
+                Console.WriteLine(" 5. Remove All");
                 Console.WriteLine("11. Save data to file");
                 Console.WriteLine("12. Load data from file");
                 Console.WriteLine("99. Exit Program");
@@ -56,6 +57,13 @@ namespace ParallelArrayDemo_HockeyPlayerStats
                             playerCount = RemovePlayer(hockeyPlayerNameArray, hockeyPlayerPointArray, playerCount);
                         }
                         break;
+                    case 5: // Remove All 
+                        {
+                            playerCount = RemoveAll(hockeyPlayerNameArray, hockeyPlayerPointArray);
+                            // Display a feedback message that all players have been removed.
+                            Console.WriteLine("Succesfully removed all players from the system.");
+                        }
+                        break;
                     case 11: // Save data
                         {
                             SaveData(hockeyPlayerNameArray, hockeyPlayerPointArray, playerCount);
@@ -80,6 +88,17 @@ namespace ParallelArrayDemo_HockeyPlayerStats
 
             } while (menuChoice != ExitProgramChoice);
 
+        }
+
+        static int RemoveAll(string[] nameArray, int[] pointArray)
+        {
+            for (int index = 0; index < nameArray.Length; index++)
+            {
+                // Assigned default values for each element
+                nameArray[index] = null;
+                pointArray[index] = 0;
+            }
+            return 0;
         }
 
         static int RemovePlayer(string[] nameArray, int[] pointArray, int arraySize)
