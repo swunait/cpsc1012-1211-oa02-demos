@@ -121,43 +121,34 @@ namespace ParallelArrayDemo_HockeyPlayerStats
         {
             int playerCount = 0;
 
-            if (arraySize <= 0)
+            if (arraySize > 0)
             {
-                Console.WriteLine("There are players to remove.");
-            }
-            else
-            {
-                // Display a list of players to remove
-                /*      12345678    123456789012345678901234567 123456
-                 *      PlayerNo(8) Player Name (27)            Points (6)
-                 *      --------    -----------                 ------
-                 *             1    Ryan Nugent-Hopkins             18
-                 *      
-                 * */
-                Console.WriteLine($"{"PlayerNo",8} {"Player Name",-27} {"Points",6}");
-                Console.WriteLine($"{"--------",8} {"-----------",-27} {"------",6}");
-                for (int index = 0; index < arraySize; index++)
-                {
-                    Console.WriteLine($"{index + 1,8} {nameArray[index],-27} {pointArray[index],6}");
-                }
-                // Prompt and read the playerNo to remove
-                //Console.Write("Enter the player number to remove: ");
-                //int playerNumber = int.Parse(Console.ReadLine());
-                int playerNumber = PromptForIntegerRange("Enter the player number to remove: ", 1, arraySize + 1);
-                int removeIndex = playerNumber - 1;
-                // Shift all elements at removeIndex up by one
+                // Prompt and read in the playerNo to remove
+                ListPlayers(nameArray, pointArray, arraySize);
+                Console.Write("Enter the playerNo to remove: ");
+                int playerNo = int.Parse(Console.ReadLine());
+                int removeIndex = playerNo - 1;
+                // Shift elements start at removeIndex one element up
                 for (int index = removeIndex; index < (arraySize - 1); index++)
                 {
-                    // Overwrite the current element with value from the next element
                     nameArray[index] = nameArray[index + 1];
                     pointArray[index] = pointArray[index + 1];
                 }
+                // Decrease the array size by 1
+                arraySize--;
+                // Reset the last element value to defaults
                 nameArray[arraySize] = null;
                 pointArray[arraySize] = 0;
-                arraySize--;
-                Console.WriteLine($"Successfully removed player {playerNumber}");
+                // Print a message to let the user know the item has been removed
+                Console.WriteLine($"PlayerNo {playerNo} has been removed.");
+
+                // Set playerCount to arraySize
+                playerCount = arraySize;
             }
-            playerCount = arraySize;
+            else
+            {
+                Console.WriteLine("There are no players in the system to remove.");
+            }
 
             return playerCount;
         }

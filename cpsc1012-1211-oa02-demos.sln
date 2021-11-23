@@ -101,6 +101,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTutor05", "MathTutor05\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelArrayDemo_HockeyPlayerStats", "ParallelArrayDemo_HockeyPlayerStats\ParallelArrayDemo_HockeyPlayerStats.csproj", "{2C21D957-960F-47B6-BA79-A4F1F788D896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_HockeyPlayerStats", "OOP_HockeyPlayerStats\OOP_HockeyPlayerStats.csproj", "{A3F9BC09-3CBD-438A-8E0F-DA3248C08F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{2C21D957-960F-47B6-BA79-A4F1F788D896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C21D957-960F-47B6-BA79-A4F1F788D896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C21D957-960F-47B6-BA79-A4F1F788D896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F9BC09-3CBD-438A-8E0F-DA3248C08F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F9BC09-3CBD-438A-8E0F-DA3248C08F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F9BC09-3CBD-438A-8E0F-DA3248C08F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F9BC09-3CBD-438A-8E0F-DA3248C08F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
