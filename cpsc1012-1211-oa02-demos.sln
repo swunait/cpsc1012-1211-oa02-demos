@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_HockeyPlayerStats", "OO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPDemo01", "OOPDemo01\OOPDemo01.csproj", "{559C43AE-D75F-4F17-9C48-6B7B10B9901D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Exercise01", "OOP_Exercise01\OOP_Exercise01.csproj", "{9EE2006B-DD4D-433F-80B3-FADEFDCA0252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{559C43AE-D75F-4F17-9C48-6B7B10B9901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559C43AE-D75F-4F17-9C48-6B7B10B9901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559C43AE-D75F-4F17-9C48-6B7B10B9901D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE2006B-DD4D-433F-80B3-FADEFDCA0252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE2006B-DD4D-433F-80B3-FADEFDCA0252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE2006B-DD4D-433F-80B3-FADEFDCA0252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE2006B-DD4D-433F-80B3-FADEFDCA0252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
