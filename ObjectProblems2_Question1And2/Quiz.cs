@@ -38,8 +38,8 @@ namespace ObjectProblems2_Question1And2
 
         public int Mark
         {
-            get => _mark;
-            //get { return _mark; }
+            //get => _mark;
+            get { return _mark; }
 
             set
             {
