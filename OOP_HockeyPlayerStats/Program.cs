@@ -109,7 +109,7 @@ namespace OOP_HockeyPlayerStats
             // Define the delimiter character for the data file
             const char Delimiter = ',';
             // Define the location of the data file
-            const string dataFilePath = @"C:\temp\oilers_dec03.txt";
+            const string dataFilePath = @"oilers.txt";
             // Call the LoadPlayerData method to load the playerList with data from 
             LoadPlayerData(playerList, dataFilePath, Delimiter);
 
@@ -137,7 +137,7 @@ namespace OOP_HockeyPlayerStats
                 {
                     case 1: // add player
                         {
-                            Console.WriteLine("Add Player");
+                            //Console.WriteLine("Add Player");
                             HockeyPlayer newHockeyPlayer = PromptForPlayerToAdd();
                             playerList.Add(newHockeyPlayer);
                         }
